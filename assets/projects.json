@@ -1,0 +1,16 @@
+[
+    {
+        "title": "AWS CI/CD Pipeline",
+        "description": "Automated deployment using Terraform & GitHub Actions.",
+        "tags": ["AWS", "Terraform", "GitHub Actions"],
+        "link": "https://github.com/username/aws-ci-cd-pipeline",
+        "image": "assets/img/ci-cd-pipeline.png"
+    },
+    {
+        "title": "Kubernetes Monitoring",
+        "description": "Prometheus + Grafana dashboard for cluster metrics.",
+        "tags": ["K8s", "Prometheus", "Grafana"],
+        "link": "https://github.com/username/k8s-monitoring",
+        "image": "assets/img/k8s-monitoring.png"
+    }
+]

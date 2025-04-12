@@ -1,39 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - DevOps Engineer</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        a { color: #0366d6; }
-        .project { margin-bottom: 30px; }
-    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <h1>👋 Hi, I'm Lohith k</h1>
-    <p><strong>DevOps & Cloud Engineer | 3+ Years Experience</strong></p>
-    <p>I automate infrastructure, build CI/CD pipelines, and optimize cloud costs.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">DevOps Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h2>🛠 Skills</h2>
-    <ul>
-        <li><strong>Cloud:</strong> AWS (EC2, S3, Lambda, EKS), Azure, GCP</li>
-        <li><strong>IaC:</strong> Terraform, CloudFormation</li>
-        <li><strong>CI/CD:</strong> GitHub Actions, Jenkins</li>
-        <li><strong>Kubernetes:</strong> Helm, ArgoCD</li>
-    </ul>
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="assets/img/profile-pic.jpg" alt="Profile" class="rounded-circle mb-3" width="150">
+            <h1 class="display-4">Your Name</h1>
+            <p class="lead">DevOps & Cloud Engineer | 3+ Years Experience</p>
+            <div class="social-links">
+                <a href="https://github.com/username" class="text-white mx-2"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://linkedin.com/in/username" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
 
-    <h2>🚀 Projects</h2>
-    <div class="project">
-        <h3>Automated CI/CD Pipeline on AWS</h3>
-        <p><strong>Tech:</strong> Terraform, GitHub Actions, EKS</p>
-        <p>Built a zero-downtime deployment pipeline.</p>
-        <a href="https://github.com/lohith307/complete-cicd-project-microdegree">View Code →</a>
-    </div>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">🛠 Technical Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-cloud me-2"></i>Cloud</h5>
+                            <p class="card-text">AWS, Azure, GCP, Terraform, Kubernetes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-code-branch me-2"></i>CI/CD</h5>
+                            <p class="card-text">GitHub Actions, Jenkins, ArgoCD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-server me-2"></i>Infra</h5>
+                            <p class="card-text">Docker, Ansible, Linux, Networking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>📫 Contact</h2>
-    <p>
-        <a href="https://www.linkedin.com/in/lohithk21099/">LinkedIn</a> | 
-        <a href="https://github.com/lohith307">GitHub</a> | 
-        <a href="mailto:lohithgowda523@gmail.com">Email</a>
-    </p>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">🚀 Projects</h2>
+            <div class="row" id="projects-container">
+                <!-- Projects load dynamically from JSON/API -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">📫 Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts/main.js"></script>
 </body>
 </html>
