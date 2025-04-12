@@ -3,7 +3,7 @@
         "title": "AWS CI/CD Pipeline",
         "description": "Automated deployment using Terraform & GitHub Actions.",
         "tags": ["AWS", "Terraform", "GitHub Actions"],
-        "link": "https://github.com/username/aws-ci-cd-pipeline",
+        "link": "https://github.com/lohith307/complete-cicd-project-microdegree.git",
         "image": "assets/img/ci-cd-pipeline.png"
     },
     {
