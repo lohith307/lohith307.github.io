@@ -1,8 +1,8 @@
 [
     {
-        "title": "AWS CI/CD Pipeline",
-        "description": "Automated deployment using Terraform & GitHub Actions.",
-        "tags": ["AWS", "Terraform", "GitHub Actions"],
+        "title": "AWS complete-cicd-project",
+        "description": "Automated deployment using Terraform.",
+        "tags": ["AWS", "Terraform", "Docker","Argocd","jenkins","kubernetes"],
         "link": "https://github.com/lohith307/complete-cicd-project-microdegree.git",
         "image": "assets/img/ci-cd-pipeline.png"
     },
