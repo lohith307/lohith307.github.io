@@ -13,4 +13,11 @@
         "link": "https://github.com/username/k8s-monitoring",
         "image": "assets/img/k8s-monitoring.png"
     }
+    {
+        "title": "Kubernetes ",
+        "description": "Prometheus .",
+        "tags": ["K8s", "Prometheus", "Grafana","AWS"],
+        "link": "https://github.com/lohith307/DevSecOps-Microdegree.git",
+        "image": "assets/img/k8s-monitoring.png"
+    }
 ]
