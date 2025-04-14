@@ -12,7 +12,7 @@
         "tags": ["K8s", "Prometheus", "Grafana"],
         "link": "https://github.com/username/k8s-monitoring",
         "image": "assets/img/k8s-monitoring.png"
-    }
+    },
     {
         "title": "Kubernetes ",
         "description": "Prometheus .",
